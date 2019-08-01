@@ -1,6 +1,17 @@
 .nav {
-
+    padding-top: 10px;
 }
 .nav-item {
-  
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-right: 25px;
+    letter-spacing: 0.33px;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    color: #00e0d0;
+    transition: 0.3s;
 }

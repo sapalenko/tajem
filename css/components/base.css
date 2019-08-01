@@ -3,11 +3,14 @@
 }
 
 html {
-  font-size: 18px;
-  font-weight: 400;
-  color:#000000;
-  line-height: 1.5;
-  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color:#fff;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
 }
 
 .wrapper {
@@ -17,7 +20,7 @@ html {
 
 .container {
   box-sizing: content-box;
-  width: 800px;
+  width: 940px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -39,13 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a, .link {
-  color: blue;
   text-decoration: none;
-}
-
-a:hover, .link:hover {
-  text-decoration: underline;
-  color: red;
 }
 
 img {
@@ -55,5 +52,32 @@ img {
 }
 
 .logo {
-  display: inline-block;
+  width: 44px;
+  height: 50px;
+  display: flex;
+  font-size: 30px;
+}
+
+.gradient {
+  padding: 11px;
+  margin: 0;
+  font-family: "Roboto - Thin";
+  font-size: 30px;
+  font-weight: 400;
+  background: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  display: table;
+}
+
+.gradient-icon {
+  font-size: 50px;
+  background: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  display: table;
+  text-align: center;
+  margin-top: 39px;
 }

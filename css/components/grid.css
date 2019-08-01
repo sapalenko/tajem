@@ -1,9 +1,11 @@
 .grid {
   display:flex;
   flex-wrap: wrap;
-  margin: 0 -10px;
+  margin: -12px;
 }
 
-.grid > * {
-  padding: 10px;
+.grid-item {
+  padding: 11px;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
 }
