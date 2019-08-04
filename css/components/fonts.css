@@ -1,75 +1,72 @@
 @font-face {
-    font-family: 'tajem';
-    src:  url('../../fonts/tajem.eot?ppukp2');
-    src:  url('../../fonts/tajem.eot?ppukp2#iefix') format('embedded-opentype'),
-      url('../../fonts/tajem.ttf?ppukp2') format('truetype'),
-      url('../../fonts/tajem.woff?ppukp2') format('woff'),
-      url('../../fonts/tajem.svg?ppukp2#tajem') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'tajem' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-puzzle:before {
-    content: "\e903";
-  }
-  .icon-gamepad:before {
-    content: "\e904";
-  }
-  .icon-location:before {
-    content: "\e905";
-  }
-  .icon-play-circle:before {
-    content: "\e90f";
-  }
-  .icon-pie-chart:before {
-    content: "\e906";
-  }
-  .icon-phone-outline:before {
-    content: "\e907";
-  }
-  .icon-monitor:before {
-    content: "\e908";
-  }
-  .icon-google:before {
-    content: "\e909";
-  }
-  .icon-paint-brush:before {
-    content: "\e90a";
-  }
-  .icon-heart-o:before {
-    content: "\e90b";
-  }
-  .icon-mobile:before {
-    content: "\e90c";
-  }
-  .icon-youtube-play:before {
-    content: "\e90d";
-  }
-  .icon-instagram:before {
-    content: "\e90e";
-  }
-  .icon-dribbble:before {
-    content: "\e902";
-  }
-  .icon-twitter:before {
-    content: "\e901";
-  }
-  .icon-facebook:before {
-    content: "\e900";
-  }
-  
+  font-family: 'tajem_1';
+  src:  url('../../fonts/tajem_1.eot?pm0838');
+  src:  url('../../fonts/tajem_1.eot?pm0838#iefix') format('embedded-opentype'),
+    url('../../fonts/tajem_1.ttf?pm0838') format('truetype'),
+    url('../../fonts/tajem_1.woff?pm0838') format('woff'),
+    url('../../fonts/tajem_1.svg?pm0838#tajem_1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tajem_1' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e90c";
+}
+.icon-monitor:before {
+  content: "\e90d";
+}
+.icon-pie-chart:before {
+  content: "\e901";
+}
+.icon-send:before {
+  content: "\e900";
+}
+.icon-phone-outline:before {
+  content: "\e90e";
+}
+.icon-location:before {
+  content: "\e902";
+}
+.icon-google:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-dribbble:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-youtube-play:before {
+  content: "\e907";
+}
+.icon-mobile:before {
+  content: "\e908";
+}
+.icon-heart-o:before {
+  content: "\e909";
+}
+.icon-paint-brush:before {
+  content: "\e90a";
+}
+.icon-gamepad:before {
+  content: "\e90b";
+}
+

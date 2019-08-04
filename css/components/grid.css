@@ -1,11 +1,65 @@
 .grid {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  margin: -12px;
 }
 
 .grid-item {
-  padding: 11px;
-  border-right: 1px solid #ebebeb;
-  border-bottom: 1px solid #ebebeb;
+  padding: 0 10px;
+}
+
+.grid-hidden {
+  margin: -2px;
+}
+
+.grid-indent {
+  margin: 0 -10px;
+}
+
+.grid-indent {
+  padding: 0 10px;
+}
+
+.grid-indent-large .grid-item {
+  padding: 0 50px;
+}
+
+.grid-indent-large {
+  margin: 0 -50px;
+}
+
+.grid-clients .grid-item {
+  padding: 0 40px;
+}
+
+.grid-gap-medium {
+  margin: 0 -12.5px;
+}
+
+.grid-gap-medium .grig-items {
+  padding: 0 12.5px;
+}
+
+@media (max-width: 960px)
+.grid-indent-large {
+    margin: 0 -30px;
+}
+
+@media (max-width: 960px)
+.grid-clients {
+    margin: 0 -20px;
+}
+
+@media (max-width: 960px)
+.grid-clients .grid-item {
+    padding: 0 20px;
+}
+
+@media (max-width: 960px)
+.grid-gap-medium {
+    margin: 0 -12.5px;
+}
+
+@media (max-width: 960px)
+.grid-gap-medium .grig-items {
+    padding: 0 12.5px;
 }

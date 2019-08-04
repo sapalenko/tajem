@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Tajem</title>
     <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,900|Roboto:100,300,400,900&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
 
@@ -56,71 +57,75 @@
 
         <div class="container">
           <div class="grid">
-            <div class="section-left width-2-5 ">
-                <figure class="section-img">
-                    <img src="images/Replace_with_your_logo.png" alt="replace-logo">
-                </figure>
+            <div class="grid-item width-2-5 width-1-1-sm">
+              <div class="section-left">
+                  <figure class="section-img">
+                      <img src="images/Replace_with_your_logo.png" alt="replace-logo">
+                  </figure>
+              </div>
+            </div>
+            
+            <div class="grid-item width-3-5 width-1-1-sm">
+              <div class="section-right">
+                  <h2 class="section-title">OUR STORY</h2>
+                  <p class="section-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                  <p class="section-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                  <button class="button-primary">LEARN MORE</button>
+              </div>
             </div>
               
-            <div class="section-right width-3-5 ">
-                <h2 class="section-title">OUR STORY</h2>
-                <p class="section-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
-                <p class="section-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <button class="button-primary">LEARN MORE</button>
-            </div>
-              
-            </div>
           </div>
+        </div>
       </section>
       <!--section with video-->
       <section class="section section-video">
 
-          <figure class="section-background">
-              <img src="images/bg_2.png" alt="city">
+        <figure class="section-background">
+            <img src="images/bg_2.png" alt="city">
+        </figure>
+
+        <div class="section-overlay"></div>
+
+        <div class="section-foreground section-info">
+          <figure class="section-play-img">
+              <img src="images/play.png" alt="play">
           </figure>
+          <!--<span class="icon-play-circle"></span>-->
+          <h2 class="section-title">WATCH OUR STORY</h2>
 
-          <div class="section-overlay"></div>
-
-          <div class="section-foreground section-info">
-            <figure class="section-play-img">
-                <img src="images/play.png" alt="play">
-            </figure>
-            <!--<span class="icon-play-circle"></span>-->
-            <h2 class="section-title">WATCH OUR STORY</h2>
-
-          </div>
+        </div>
       </section>
       <!--section expertise-->
-      <section class="section section-expertise">
+      <section class="section section-expertise section-darken">
         <div class="container">
-          <div class="section-top section-darken">
+          <div class="section-top">
             <h2 class="section-title">EXPERTISE</h2>
             <div class="section-subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
           </div>
     
           <div class="section-middle">
-            <div class="grid">
-              <div class="grid-item width-1-3">
+            <div class="grid grid-hidden">
+              <div class="grid-item width-1-3 width-1-2-md width-1-1-sm">
                 
-                <div class="card card-expertise">
+                <div class="card card-decore">
                   <span class="icon-monitor gradient-icon"></span>
                   <h3 class="card-title">WEB DESIGN & DEVELOPMENT</h3>
                   <p class="card-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </div>
 
               </div>
-              <div class="grid-item width-1-3">
+              <div class="grid-item width-1-3 width-1-2-md width-1-1-sm">
                 
-                <div class="card card-expertise">
+                <div class="card card-decore">
                   <span class="icon-paint-brush gradient-icon"></span>
                   <h3 class="card-title">BRANDING IDENTITY</h3>
                   <p class="card-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </div>
                   
               </div>
-              <div class="grid-item width-1-3">
+              <div class="grid-item width-1-3 width-1-2-md width-1-1-sm">
 
-                <div class="card card-expertise">
+                <div class="card card-decore">
                   <span class="icon-mobile gradient-icon"></span>
                   <h3 class="card-title">MOBILE APP</h3>
                   <p class="card-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
@@ -129,7 +134,7 @@
               </div>
               <div class="grid-item width-1-3">
 
-                <div class="card card-expertise">
+                <div class="card card-decore">
                   <span class="icon-pie-chart gradient-icon"></span>
                   <h3 class="card-title">SEARCH ENGINE OPTIMIZATION</h3>
                   <p class="card-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
@@ -138,7 +143,7 @@
               </div>
               <div class="grid-item width-1-3">
 
-                  <div class="card card-expertise">
+                  <div class="card card-decore">
                     <span class="icon-gamepad gradient-icon"></span>
                     <h3 class="card-title">GAME DEVELOPMENT</h3>
                     <p class="card-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
@@ -148,7 +153,7 @@
           
               <div class="grid-item width-1-3">
                 
-                <div class="card card-expertise">
+                <div class="card card-decore">
                   <span class="icon-heart-o gradient-icon"></span>
                   <h3 class="card-title">MADE WITH LOVE</h3>
                   <p class="card-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
@@ -161,21 +166,540 @@
         </div>
       </section>
       <!--section team-->
-      <section class="section section-team">
+      <section class="section section-team section-lighten">
           <figure class="section-background">
               <img src="images/bg_3.png" alt="city">
           </figure>
 
           <div class="section-overlay"></div>
+          <div class="container">
+            <div class="section-foreground">
+                <div class="section-top">
+                  <h2 class="section-title">MEET OUR AMAZING TEAM</h2>
+                  <div class="section-subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+                </div>
+    
+                <div class="section-middle">
+                  <div class="grid grid-indent">
+                    <div class="grid-item width-1-4 width-1-3-md width-1-2-sm">
+                      <div class="card-developer">
+                        <figure class="card-developer-img">
+                          <img src="https://www.verilor.fr/wp-content/uploads/2018/11/t%C3%A9l%C3%A9travail.jpg" alt="ceo-developer">
+                        
+                          <div class="card-developer-cover">
+                            <ul class="list list-social">
+                              <li class="list-item">
+                                <a href="#" class="link icon-twitter"></a>
+                              </li>
+                              <li class="list-item">
+                                  <a href="#" class="link icon-facebook"></a>
+                              </li>
+                              <li class="list-item">
+                                  <a href="#" class="link icon-google"></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </figure>
+                        <div class="card-body">
+                          <h4 class="card-title">SEMF UCUK</h4>
+                          <h5 class="card-subtitle">CEO & FOUNDER</h5>
+                        </div>
+                      </div>
+                    </div>
 
-          <div class="section-foreground section-lighten">
-            <div class="section-top">
-              <h2 class="section-title">MEET OUR AMAZING TEAM</h2>
-              <div class="section-subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
-            </div>
+                    <div class="grid-item width-1-4 width-1-3-md width-1-2-sm">
+                        <div class="card-developer">
+                          <figure class="card-developer-img">
+                            <img src="https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Hipster-Developer-Dice-1024x640.jpg" alt="ceo-developer">
+                          
+                            <div class="card-developer-cover">
+                              <ul class="list list-social">
+                                <li class="list-item">
+                                  <a href="#" class="link icon-twitter"></a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="link icon-facebook"></a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="link icon-google"></a>
+                                </li>
+                              </ul>
+                            </div>
+                          </figure>
+                          <div class="card-body">
+                            <h4 class="card-title">DIK ADALIN</h4>
+                            <h5 class="card-subtitle">ENGINEERING</h5>
+                          </div>
+                        </div>
+                    </div>
 
-            <div class="section-middle"></div>
+                    <div class="grid-item width-1-4 width-1-3-md width-1-2-sm">
+                      <div class="card-developer">
+                        <figure class="card-developer-img">
+                          <img src="https://378944.smushcdn.com/717727/wp-content/uploads/2017/01/web-designer-vs-web-builder.png?lossy=1&strip=0&webp=1" alt="ceo-developer">
+                        
+                          <div class="card-developer-cover">
+                            <ul class="list list-social">
+                              <li class="list-item">
+                                <a href="#" class="link icon-twitter"></a>
+                              </li>
+                              <li class="list-item">
+                                  <a href="#" class="link icon-facebook"></a>
+                              </li>
+                              <li class="list-item">
+                                  <a href="#" class="link icon-google"></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </figure>
+                        <div class="card-body">
+                          <h4 class="card-title">JENG KOL</h4>
+                          <h5 class="card-subtitle">DESIGNER</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item width-1-4 width-1-3-md width-1-2-sm">
+                        <div class="card-developer">
+                          <figure class="card-developer-img">
+                            <img src="https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/Freelance-Developer-Dice-1024x682.jpeg" alt="ceo-developer">
+                          
+                            <div class="card-developer-cover">
+                              <ul class="list list-social">
+                                <li class="list-item">
+                                  <a href="#" class="link icon-twitter"></a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="link icon-facebook"></a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="link icon-google"></a>
+                                </li>
+                              </ul>
+                            </div>
+                          </figure>
+                          <div class="card-body">
+                            <h4 class="card-title">PET ROMAK</h4>
+                            <h5 class="card-subtitle">MARKETING</h5>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+      
+                  <div class="section-bottom">
+                    <p class="section-description">Become part of our dream team, let’s join us !</p>
+                    <button class="button-primary">WE ARE HIRING</button>
+                  </div>
+                </div>
           </div>
+      </section>
+      <!--section-our works-->
+      <section class="section section-works">
+        <div class="container">
+          <div class="section-top">
+            <h2 class="section-title">OUR WORKS</h2>
+            <a href="#" class="section-link">See All Project in dribbble ></a>
+          </div>
+        </div>
+        <div class="section-middle">
+          <div class="grid grid-works">
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                  <figure class="work-img">
+                    <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                    <div class="card-work-cover">
+                      <div class="card-img-cover">
+                        <figure class="card-img">
+                          <img src="images/plus.png" alt="plus">
+                        </figure>
+                      </div>
+                      <div class="card-body-cover">
+                        <h4 class="card-title">partnership guidlines</h4>
+                      </div>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+              <div class="grid-works-item width-1-6 width-1-3-md width-1-2-sm">
+                <div class="card-work">
+                    <figure class="work-img">
+                      <img src="https://previews.123rf.com/images/bloomua/bloomua1402/bloomua140200050/26073548-flat-design-style-modern-vector-illustration-concept-of-programmer-or-coder-workflow-for-website-cod.jpg" alt="our-work">                   
+                      <div class="card-work-cover">
+                        <div class="card-img-cover">
+                          <figure class="card-img">
+                            <img src="images/plus.png" alt="plus">
+                          </figure>
+                        </div>
+                        <div class="card-body-cover">
+                          <h4 class="card-title">partnership guidlines</h4>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="section-bottom">
+          <button class="button-primary">Load more</button>
+        </div>
+      </section>
+      <!--section people-->
+      <section class="section section-people">
+        <figure class="section-background">
+          <img src="images/bg_4.png" alt="bg-4">
+        </figure>
+
+        <div class="section-overlay"></div>
+
+        <div class="container">
+          <div class="section-body">
+            <div class="section-top">
+              <h2 class="section-title section-decor">“</h2>
+            </div>
+            <div class="section-middle">
+              <p class="section-description">
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum 
+                  auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. 
+                  Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+              </p>
+            </div>
+            <div class="section-bottom">
+              <h3 class="section-title">JANE GALADRIEL</h3>
+              <h6 class="section-subtitle">CEO TENGKUREP</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section-feedback-->
+      <section class="section section-feedback">
+        <div class="container">
+          <div class="grid grid-indent-large">
+            <div class="grid-item width-1-2 width-1-1-sm">
+              <h2 class="section-title">GIVE US A GOOD NEWS</h2>
+              <form action="#">
+                <div class="form-control">
+                  <input class="input" type="text" placeholder="Name">
+                  <input class="input" type="text" placeholder="Email">
+                  <input class="input" type="text" placeholder="Subject">
+                  <textarea class="textarea" placeholder="You massage"></textarea>
+                  <button class="button button-primary" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+            <div class="grid-item width-1-2 width-1-1-sm">
+              <h2 class="section-title">OUR HAPPY CLIENT</h2>
+              <div class="grid grid-clients">
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/Zara_Logo.svg.png" alt="zara-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/Logo_of_Mango_(new).svg.png" alt="mango-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/1280px-Barneys_New_York_Logo.svg.png" alt="barneys-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/1280px-Gucci_Logo.svg.png" alt="gucci-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/Calvin_klein_logo.svg.png" alt="calvin-klein-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/1280px-Logo_NIKE.svg.png" alt="nike-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/Converse_logo.svg.png" alt="converse-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/Puma_Logo.svg.png" alt="puma-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/1280px-Levi's_logo.svg.png" alt="levis-logo">
+                    </figure>
+                  </div>
+                </div>
+                <div class="grid-item width-1-2">
+                  <div class="card-clients">
+                    <figure class="img-clients">
+                      <img src="images/Billabong.svg.png" alt="billabong-logo">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--footer-->
+      <section class="section section-footer">
+        <figure class="section-background">
+          <img src="images/bg_5.png" alt="bg-5">
+        </figure>
+        <div class="section-overlay"></div>
+        <div class="container">
+          <div class="section-top">
+            <div class="grid grid-gap-medium">
+              <div class="grig-items width-1-3 width-1-2-md width-1-1-sm">
+                <a href="#" class="logo">
+                  <figure class="logo-img">
+                    <img src="images/Vector_Smart_Object.png" alt="logo">
+                  </figure>
+                  <div class="gradient">tajem</div>
+                </a>
+                <p class="description">
+                    lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet 
+                    auctror a ornare odio non mauris vitae erat in elit  
+                </p>
+              </div>
+              <div class="grig-items width-1-3 width-1-2-md width-1-1-sm">
+                <h3 class="section-title">OUR STUDIO</h3>
+                <ul class="list list-style-contacts">
+                  <li class="list-item">
+                    <span class="list-icon icon-location"></span>
+                    Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia
+                  </li>
+                  <li class="list-item">
+                    <span class="list-icon icon-phone-outline"></span>
+                    (+62) 21-2224 3333
+                  </li>
+                </ul>
+              </div>
+              <div class="grig-items width-1-3 width-1-2-md width-1-1-sm">
+                <h3 class="section-title">STAY IN TOUCH</h3>
+                <section class="section-subscribe">
+                  <div class="section-subscribe-wrapper">
+                    <input class="input input-secondary" type="text" placeholder="Subscribe our newsletter">
+                  </div>
+                  <div class="section-subscribe-wrapper">
+                    <button class="button-secondary" type="submit">
+                      <span class="button-icon icon-send"></span>
+                    </button>
+                  </div>
+                </section>
+                <section class="section-bottom section-social">
+                  <a href="#" class="link-social icon-facebook"></a>
+                  <a href="#" class="link-social icon-twitter"></a>
+                  <a href="#" class="link-social icon-dribbble"></a>
+                  <a href="#" class="link-social icon-instagram"></a>
+                  <a href="#" class="link-social icon-google"></a>
+                  <a href="#" class="link-social icon-youtube-play"></a>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="section-bottom">
+            <div class="section-suport">
+              <a href="#" class="link">HELP</a>
+              <a href="#" class="link">TERMS & CONDITION</a>
+              <a href="#" class="link">PRIVACY</a>
+            </div>
+            <div class="description">Copyright © 2015 - Tajem Creative</div>
+          </div>
+        </div>
       </section>
   </body>
 </html>

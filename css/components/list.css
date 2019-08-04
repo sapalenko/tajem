@@ -1,3 +1,30 @@
 .list {
   list-style-type: none;
 }
+
+.list-style-contacts {
+  position: relative;
+  margin: 0;
+  padding-left: 30px;
+}
+
+.list-style-contacts > .list-item {
+  position: relative;
+  letter-spacing: 0.35px;
+}
+
+.list-item {
+  margin-bottom: 25px;
+}
+
+.list-social {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.list-icon {
+  position: absolute;
+  left: -30px;
+  font-size: 18px;
+}
