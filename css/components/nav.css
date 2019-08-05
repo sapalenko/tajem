@@ -15,3 +15,9 @@
     color: #00e0d0;
     transition: 0.3s;
 }
+
+@media (max-width: 960px) {
+    .nav {
+      display: none;
+    }
+  }

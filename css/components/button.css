@@ -46,3 +46,10 @@
 .button-secondary:hover {
   opacity: 1;
 }
+
+@media (max-width: 960px) {
+  .button-primary,
+  .button-secondary {
+    width: 100%;
+  }
+}

@@ -12,18 +12,15 @@
 }
 
 .grid-indent {
-  margin: 0 -10px;
-}
-
-.grid-indent {
   padding: 0 10px;
 }
 
-.grid-indent-large .grid-item {
+
+.grid-indent-xlarge .grid-item {
   padding: 0 50px;
 }
 
-.grid-indent-large {
+.grid-indent-xlarge {
   margin: 0 -50px;
 }
 
@@ -31,35 +28,45 @@
   padding: 0 40px;
 }
 
-.grid-gap-medium {
+.grid-indent-medium {
   margin: 0 -12.5px;
 }
 
-.grid-gap-medium .grig-items {
+.grid-indent-medium .grig-items {
   padding: 0 12.5px;
 }
 
-@media (max-width: 960px)
-.grid-indent-large {
-    margin: 0 -30px;
-}
+@media (max-width: 960px) {
+  .grid-indent {
+    margin: 0 -10px;
+  }
 
-@media (max-width: 960px)
-.grid-clients {
-    margin: 0 -20px;
-}
+  .grid-indent .grid-item {
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
 
-@media (max-width: 960px)
-.grid-clients .grid-item {
-    padding: 0 20px;
-}
-
-@media (max-width: 960px)
-.grid-gap-medium {
+  .grid-indent-medium {
     margin: 0 -12.5px;
-}
+  }
 
-@media (max-width: 960px)
-.grid-gap-medium .grig-items {
+  .grid-indent-medium .grig-items {
     padding: 0 12.5px;
-}
+  }
+
+  .grid-indent-large {
+    margin: 0 -20px;
+  }
+
+  .grid-indent-large .grid-items {
+    padding: 0 20px;
+  }
+
+  .grid-indent-xlarge {
+    margin: 0 -30px;
+  }
+
+  .grid-indent-xlarge .grid-item {
+    padding: 0 30px;
+  }
+} 
