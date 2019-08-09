@@ -34,6 +34,20 @@
   width: 80%;
 }
 
+@media ( max-width: 1250px) {
+  .width-1-1-lg {
+    width: 100%;
+  }
+
+  .width-1-2-lg {
+    width: 50%;
+  }
+
+  .width-1-3-lg {
+    width: 33.33%;
+  }
+}
+
 @media ( max-width: 960px) {
   .width-1-1-md {
     width: 100%;
