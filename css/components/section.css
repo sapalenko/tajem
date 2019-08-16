@@ -53,6 +53,16 @@
   padding: 15px 0;
 }
 
+.section-hero .section-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-hero .section-top {
+  margin-top: 173px;
+  text-align: center;
+}
+
 .section-hero .section-title {
   margin: 0;
   font-size: 32px;
